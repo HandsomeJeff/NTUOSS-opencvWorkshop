@@ -61,7 +61,7 @@ You should see a new image file called `arrow.jpg` in the `resources` directory.
 
 Now open up `2. videocapture.py`. This program opens activates the webcam and records the stream to local storage. We can also choose to stream in grayscale. Stop the recording with the `q` key.
 
-<!-- ![task 1.2 screenshot](screenshots/task_1_2.gif?raw=true) -->
+![task 1.2 screenshot](screenshots/task_1_2.gif?raw=true)
 
 We can also choose not to record by commenting out the lines:
 ```Python
@@ -171,7 +171,7 @@ But there is one thing that sets us apart from chimps. We can write software to 
 Open `1. detectimagess.py` (the extra 's' is not a type - it implies that there will be a lot of images). We'll be running the **arrow detection** on a ton of images (1704, to be precise).
 
 
-<!-- ![task 3.1 screenshot](screenshots/task_3_1.gif?raw=true) -->
+![task 3.1 screenshot](screenshots/task_3_1.gif?raw=true)
 
 Right now we are showing off the results one by one. But if you don't want to see all 1704 images, just close the window.
 
@@ -183,7 +183,7 @@ So now let's bring everything together. A video is a series of images shown in q
 
 So open up `4. detectarrow.py` and run it. The base code simply detects faces. If you put a face in front of the webcam it will show up.
 
-<!-- ![task 3.1 screenshot](screenshots/task_3_2.gif?raw=true) -->
+![task 3.1 screenshot](screenshots/task_3_2.gif?raw=true)
 
 And if one classifier isn't enough, we can run multiple facial detections at the same time, such that we have a higher chance of getting a hit.
 
